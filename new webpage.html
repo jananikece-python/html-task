@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *
+    { 
+        margin: 0;
+        padding:0;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    ul{
+        list-style:none;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        width: 150px
+        height: 270px;
+        padding:10px;
+        background-color: black;
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    .hm{
+        padding: 80px;
+    }
+    #ho {
+        background-image:url("images1.jpg") ;
+        background-repeat : no-repeat;
+        background-size : cover;
+        height : 100vh;
+        text-align: center;
+    }
+    #ab{
+        background-color:pink;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        }
+    #pr{
+        background-image: url("images6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:35px
+    }
+    #se{ background-image:url("images4.jpg") ;
+        background-repeat : no-repeat;
+        background-size : cover;
+        height : 100vh;
+        padding: 50px;
+        justify-content: center;
+    }
+    #co{
+        background-image:url("images1.jpg") ;
+        background-repeat : no-repeat;
+        background-size : cover;
+        height : 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .about1{
+        display: flex;
+        gap: 35px;
+        padding: 50px;
+        margin-bottom:50px; 
+    }
+    .about2{
+        display: flex;
+        gap:35px;
+        padding: 30px;
+    } 
+    .fr{
+        width: 150px;px;
+        height: 270px;
+        border:3px solid blue;
+        padding:10px;
+        background-color: aqua;
+    }  
+    .se{
+        width: 150px;px;
+        height: 270px;
+        border:3px solid red;
+        padding:10px;
+        background-color: aqua;
+    }  
+    .th{
+        width: 150px;
+        height: 270px;
+        border:3px solid green;
+        padding:10px;
+        background-color: aqua;
+    }  
+    .mark{
+        margin-top: 200px;
+        border:10px solid blue;
+        display: flex;
+    }
+    .co{
+         width: 300px;
+        height: 400px;
+        border:3px solid brown;
+        padding:10px;
+        margin-top:100px;
+    }
+    </style>
+<body>
+   <div id="ho">
+    <nav>
+        <ul>
+            <li><a href="#ho">HOME</a></li>
+            <li><a href="#ab">ABOUT</a></li>
+            <li><a href="#pr">PRODUCT</a></li>
+            <li><a href="#se">SERVICES</a></li>
+            <li><a href="#co">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="hm">
+      <b><h1 style="color:black;font-style: italic;font-size:xx-large;">Fashion Store!!!</h1></b>
+      <img src="img1.jpg"alt=""width="270px"height="300px">
+    </div>
+    </div> 
+   <div id="ab">
+    <div class="about1">
+      <img src="images3.jpg">
+      <blockquote>
+        Welcome to fashion hub,where style meets
+         comfort.We believe that clothing is more 
+         than just fabric-it's a way to express your personality,confidence and individuality
+    </blockquote>
+        </div>
+    <div class="about2">
+        <blockquote>
+            Founded with a passion for fashion,our store offers a carefully curated
+            collection of trendy,high-quality clothing for men,women and kids.
+        </blockquote>
+            <img src="images9.jpg">
+      </div>
+   </div>
+   <div id="pr">
+        <div class="fr">
+            <img src="images4.jpg"alt=""width="150px"height="150px">
+            <p> Our mission is to bring you the latest fashion at affordable
+                 prices without compromising on quality </p>
+        </div>
+        <div class="se">
+            <img src="images6.jpg"alt=""width="150px"height="150px">
+            <p>At fashion hub,we style value,quality and
+                 customer satisfaction above all else.</p>
+        </div>
+        <div class="th">
+            <img src="images5.jpg" alt=""width="150px"height="150px">
+            <p>Whether you're updating your wardrobe or searching for 
+                the perfect outfit,we're here to help you look and feel you best.</p>
+        </div>
+    </div>
+   <div id="se">
+    <div class="mark">
+  <marquee behaviour=""direction=""bgcolor="black" loop="10"
+  vspace="10"hspace="10"height="auto">
+   <h2 style="color: yellowgreen;">FLASH SALE!</h2><br>
+    <h3 style="color:orangered"> 50% DISCOUNT ...BUY 3 GET 1 FOR FREE!</h3>
+ </marquee>
+    </div>
+   </div>
+   <div id="co">
+    <div class="co">
+<legend><b>CONTACT US</b></legend><br>
+        <p>
+            <label for="name">First Name:</label>
+            <input type="text"required>
+        </p><br>
+        <p>
+            <label for="EMAIL">E-MAIL:</label>
+            <input type="email"required>
+        </p><br>
+        <p>
+            <label for="Address">Address:</label>
+            <textarea rows="5" column="60"></textarea>
+            </p><BR>
+            <button>CONTACT US</button>
+            <br><br>
+                <H3 style="color:purple;">DETAILS</H3>
+                <p style="color:blue;">
+            &nbsp;&nbsp;&nbsp;Address:123 Fashion street,your city<br>
+            &nbsp;&nbsp;&nbsp;Phone: 91 986543xx<br>
+             &nbsp;&nbsp;&nbsp;Email:support@yourstore.com<br> 
+              &nbsp;&nbsp;&nbsp;Working hours:MON-SAT,10AM-9PM
+        </P>
+        </div>
+   </div>
+</body>
+</html>
