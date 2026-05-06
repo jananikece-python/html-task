@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+        list-style: upper-roman;
+    }
+
+    #a {
+        list-style: circle;
+    }
+
+    #b {
+        list-style: square;
+    }
+    #c{
+        list-style: disc;
+    }
+</style>
+
+<body>
+    <h4>Preceding Text</h4>
+    <ul>
+        <li>List item 1</li>
+        <ol type="a">
+            <li>Nested item 1.1</li>
+            <li>Nested item 1.2</li>
+        </ol>
+        <li>List item 2</li>
+        <ol>
+            <li>Nested item 2.1</li>
+            <li>Nested item 2.2
+                <ul id="a">
+                    <li>Nested item 2.2.1</li>
+                    <li>Nested item 2.2.2
+                        <ul id="b">
+                            <li>Nested item 2.2.2.1</li>
+                            <li>Nested item 2.2.2.2</li>
+                        </ul>
+                    </li>
+                    <li>Nested item 2.2.3</li>
+                </ul>
+                <li>Nested item 2.3i</li>
+            </li>
+        </ol>
+
+        <li>List item 3</li>
+        <ul id="c">
+            <li>Nested item 3.1</li>
+            <li>Nested item 3.2</li>
+            <li>Nested item 3.3</li>
+        </ul>
+    </ul>
